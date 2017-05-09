@@ -3,3 +3,11 @@
 
 # Packaging
 .cask
+
+auto-save-list/
+elpa*/
+url*/
+*~
+\#*\#
+ac-comphist.dat
+eshell/
