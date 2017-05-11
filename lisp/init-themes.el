@@ -36,5 +36,12 @@
 (set-fontset-font t 'unicode "Segoe UI Emoji" nil 'append)
 (set-fontset-font t 'unicode "STIX" nil 'append)
 
+;; change font size to 16pt
+;; (set-face-attribute 'default nil :height 160)
+
+
+;; show line number
+(linum-mode 1)
+
 
 (provide 'init-themes)

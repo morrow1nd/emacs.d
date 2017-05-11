@@ -1,4 +1,21 @@
 
+;; use spaces instead of tabs when indenting, use C-q <tab> to insert a real TAB
+(setq-default indent-tabs-mode nil)
+
+;; enable delete-selection-mode
+;(delete-selection-mode 1)
+
+;; default fullscreen when start emacs
+(setq initial-frame-alist (quote ((fullscreen . maximized))))
+
+;; change yes-or-no to y-or-n
+;(fset 'yes-or-no-p 'y-or-n-p)
+
+;; global minor mode that reverts any buffer associated with a file when the
+;; file changes on disk.
+;(global-auto-revert-mode 1)
+
+
 ;; turn on highlight mathcing brackets when your cursor is on one of the bracket
 ;; show-paren-mode will highlight any brackets, including () [] {} 「」 『』 【】 〖〗 〈〉 《》 ‹› «» ….
 (show-paren-mode 1)
@@ -10,7 +27,6 @@
 ;; smart-tab `smart-tab' attempts to expand the text before the point or indent the current line or selection.
 ; (require-package 'smart-tab)
 ; (global-smart-tab-mode 1)
-
 
 ;(require-package 'company)
 (require-package 'auto-complete)

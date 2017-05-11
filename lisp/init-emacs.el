@@ -5,6 +5,9 @@
 ;; disable menu-bar-mode
 (menu-bar-mode -1)
 
+;; 关闭文件滑动控件
+(scroll-bar-mode -1)
+
 ;; enable narrow-to-region
 (put 'narrow-to-region 'disabled nil)
 
