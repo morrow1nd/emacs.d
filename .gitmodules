@@ -1,0 +1,3 @@
+[submodule "extern/csharp-mode"]
+	path = extern/csharp-mode
+	url = https://github.com/josteink/csharp-mode.git

@@ -1,4 +1,5 @@
 (add-to-list 'load-path "~/.emacs.d/lisp")
+(add-to-list 'load-path "~/.emacs.d/extern")
 
 
 (require 'init-site-lisp) ; Must come before elpa, as it may provide package.el
@@ -10,6 +11,7 @@
 (require 'init-shell)
 (require 'init-window)
 (require 'init-c)
+(require 'init-csharp)
 
 
 ;;-----------------------------------------------
